@@ -9,7 +9,7 @@ type FeatureCollection struct {
 
 // Feature corresponds each entries of feature collection.
 type Feature struct {
-	Type     string   `json:"feature"`
+	Type     string   `json:"type"`
 	Property Property `json:"properties"`
 	Geometry Geometry `json:"geometry"`
 }
